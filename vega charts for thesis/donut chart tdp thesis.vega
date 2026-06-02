@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "A simple donut chart with embedded data.",
+  "title": {
+  "text": "Sample Distribution",
+  "fontSize": 20,
+  "anchor": "middle",
+  "color": "seagreen"
+},
+  "data": {
+    "values": [
+      {"Gender": "Male", "value": 60},
+      {"Gender": "Female", "value": 40},
+      
+    ]
+  },
+  //Specifiying the "mark" field to "type" arc to get the donut chart
+  "mark": {"type": "arc", "innerRadius": 80},
+  "encoding": {
+    //theta represents the start angle of an arc in radians
+    "theta": {"field": "value", "type": "quantitative"},
+    //"color" field is modified according to user choice
+    "color": {"field":"Gender","type": "nominal",
+    "legend": {
+        "labelFontSize": 18,
+        "titleFontSize": 20
+      }}
+  }
+}
