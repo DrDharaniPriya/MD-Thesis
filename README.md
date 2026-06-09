@@ -13,7 +13,7 @@ Type 2 Diabetes Mellitus (T2DM) is associated with significant microvascular and
 
 ## Project Overview:
 
-![Alt text](Thesis overview.png)
+![Alt text](https://github.com/DrDharaniPriya/MD-Thesis/blob/main/Thesis%20overview.png)
 
 
 ## NDA 
